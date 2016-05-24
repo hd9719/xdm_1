@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=mgr
+comment0.target=DownloadWindow(org.sdg.xdman.core.common.ConnectionManager)
+comment1.params=
+comment1.target=void\ showWindow()
+comment2.params=arg0\ arg1
+comment2.target=void\ update(java.util.Observable,\ java.lang.Object)
+comment3.params=
+comment3.target=void\ init()
+comment4.params=e
+comment4.target=void\ windowClosing(java.awt.event.WindowEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

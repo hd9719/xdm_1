@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=in
+comment0.target=ChunkedInputStream(java.io.InputStream)
+comment0.text=\n\ ChunkedInputStream\ constructor\ that\ associates\ the\ chunked\ input\ stream\n\ with\ a\ {@link\ HttpMethod\ HTTP\ method}.\ Usually\ it\ should\ be\ the\ same\n\ {@link\ HttpMethod\ HTTP\ method}\ the\ chunked\ input\ stream\ originates\ from.\n\ If\ chunked\ input\ stream\ contains\ any\ footers\ (trailing\ headers),\ they\n\ will\ be\ added\ to\ the\ associated\ {@link\ HttpMethod\ HTTP\ method}.\n\ \n\ @param\ in\n\ \ \ \ \ \ \ \ \ \ \ \ the\ raw\ input\ stream\n\ @param\ method\n\ \ \ \ \ \ \ \ \ \ \ \ the\ HTTP\ method\ to\ associate\ this\ input\ stream\ with.\ Can\ be\n\ \ \ \ \ \ \ \ \ \ \ \ <tt>null</tt>.\n\ \n\ @throws\ IOException\n\ \ \ \ \ \ \ \ \ \ \ \ \ If\ an\ IO\ error\ occurs\n
+comment1.params=
+comment1.target=int\ read()
+comment1.text=\n\ <p>\n\ Returns\ all\ the\ data\ in\ a\ chunked\ stream\ in\ coalesced\ form.\ A\ chunk\ is\n\ followed\ by\ a\ CRLF.\ The\ method\ returns\ -1\ as\ soon\ as\ a\ chunksize\ of\ 0\ is\n\ detected.\n\ </p>\n\ \n\ <p>\n\ Trailer\ headers\ are\ read\ automcatically\ at\ the\ end\ of\ the\ stream\ and\ can\n\ be\ obtained\ with\ the\ getResponseFooters()\ method.\n\ </p>\n\ \n\ @return\ -1\ of\ the\ end\ of\ the\ stream\ has\ been\ reached\ or\ the\ next\ data\n\ \ \ \ \ \ \ \ \ byte\n\ @throws\ IOException\n\ \ \ \ \ \ \ \ \ \ \ \ \ If\ an\ IO\ problem\ occurs\n\ \n\ @see\ HttpMethod\#getResponseFooters()\n
+comment2.params=b\ off\ len
+comment2.target=int\ read(byte[],\ int,\ int)
+comment2.text=\n\ Read\ some\ bytes\ from\ the\ stream.\n\ \n\ @param\ b\n\ \ \ \ \ \ \ \ \ \ \ \ The\ byte\ array\ that\ will\ hold\ the\ contents\ from\ the\ stream.\n\ @param\ off\n\ \ \ \ \ \ \ \ \ \ \ \ The\ offset\ into\ the\ byte\ array\ at\ which\ bytes\ will\ start\ to\ be\n\ \ \ \ \ \ \ \ \ \ \ \ placed.\n\ @param\ len\n\ \ \ \ \ \ \ \ \ \ \ \ the\ maximum\ number\ of\ bytes\ that\ can\ be\ returned.\n\ @return\ The\ number\ of\ bytes\ returned\ or\ -1\ if\ the\ end\ of\ stream\ has\ been\n\ \ \ \ \ \ \ \ \ reached.\n\ @see\ java.io.InputStream\#read(byte[],\ int,\ int)\n\ @throws\ IOException\n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ an\ IO\ problem\ occurs.\n
+comment3.params=b
+comment3.target=int\ read(byte[])
+comment3.text=\n\ Read\ some\ bytes\ from\ the\ stream.\n\ \n\ @param\ b\n\ \ \ \ \ \ \ \ \ \ \ \ The\ byte\ array\ that\ will\ hold\ the\ contents\ from\ the\ stream.\n\ @return\ The\ number\ of\ bytes\ returned\ or\ -1\ if\ the\ end\ of\ stream\ has\ been\n\ \ \ \ \ \ \ \ \ reached.\n\ @see\ java.io.InputStream\#read(byte[])\n\ @throws\ IOException\n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ an\ IO\ problem\ occurs.\n
+comment4.params=
+comment4.target=void\ readCRLF()
+comment4.text=\n\ Read\ the\ CRLF\ terminator.\n\ \n\ @throws\ IOException\n\ \ \ \ \ \ \ \ \ \ \ \ \ If\ an\ IO\ error\ occurs.\n
+comment5.params=
+comment5.target=void\ nextChunk()
+comment5.text=\n\ Read\ the\ next\ chunk.\n\ \n\ @throws\ IOException\n\ \ \ \ \ \ \ \ \ \ \ \ \ If\ an\ IO\ error\ occurs.\n
+comment6.params=in
+comment6.target=int\ getChunkSizeFromInputStream(java.io.InputStream)
+comment6.text=\n\ Expects\ the\ stream\ to\ start\ with\ a\ chunksize\ in\ hex\ with\ optional\n\ comments\ after\ a\ semicolon.\ The\ line\ must\ end\ with\ a\ CRLF\:\ "a3;\ some\n\ comment\\r\\n"\ Positions\ the\ stream\ at\ the\ start\ of\ the\ next\ line.\n\ \n\ @param\ in\n\ \ \ \ \ \ \ \ \ \ \ \ The\ new\ input\ stream.\n\ @param\ required\n\ \ \ \ \ \ \ \ \ \ \ \ <tt>true<tt/>\ if\ a\ valid\ chunk\ must\ be\ present,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <tt>false<tt/>\ otherwise.\n\ \n\ @return\ the\ chunk\ size\ as\ integer\n\ \n\ @throws\ IOException\n\ \ \ \ \ \ \ \ \ \ \ \ \ when\ the\ chunk\ size\ could\ not\ be\ parsed\n
+comment7.params=
+comment7.target=void\ parseTrailerHeaders()
+comment8.params=in
+comment8.target=java.lang.String\ readLine(java.io.InputStream)
+numComments=9

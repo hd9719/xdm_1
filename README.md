@@ -8,7 +8,7 @@
 
  1.  First be sure you have  jdk (java development kit)  
 2. oracle jdk or  open jdk  will do
-3.  now use bluej  [bluejl Download Page](www.bluej.org).
+3.  now use bluej  [bluej](www.bluej.org).
 4. after  download and installation of the above   download the project via downliading the zip  or through git
 5. git code is
   git clone https://github.com/siddht1/xdm_1
@@ -24,7 +24,7 @@ project > open project   and     navigate  to where you save the project
 
 
 
-#description
+# description
 
 
 This is a source code generation of the main Xdman(xtreme download manager)

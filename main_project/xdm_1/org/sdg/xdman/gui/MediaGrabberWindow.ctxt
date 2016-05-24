@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=model\ mw
+comment0.target=MediaGrabberWindow(MediaTableModel,\ MainWindow)
+comment1.params=
+comment1.target=void\ init()
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=arg0
+comment3.target=void\ itemStateChanged(java.awt.event.ItemEvent)
+numComments=4

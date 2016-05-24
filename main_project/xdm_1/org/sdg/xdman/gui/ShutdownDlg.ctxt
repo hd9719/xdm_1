@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ShutdownDlg()
+comment1.params=e
+comment1.target=void\ windowClosing(java.awt.event.WindowEvent)
+comment2.params=cmd
+comment2.target=void\ start(java.lang.String)
+comment3.params=
+comment3.target=void\ run()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment5.params=
+comment5.target=void\ stop()
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=7

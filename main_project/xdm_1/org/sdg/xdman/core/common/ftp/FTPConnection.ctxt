@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=url\ fileName\ startOff\ length\ contentLength\ timeout\ mgr\ lock\ extra\ cookie\ c\ config
+comment0.target=FTPConnection(java.lang.String,\ java.lang.String,\ long,\ long,\ long,\ int,\ org.sdg.xdman.core.common.ConnectionManager,\ java.lang.Object,\ java.util.HashMap,\ java.lang.String,\ org.sdg.xdman.core.common.Credential,\ org.sdg.xdman.core.common.XDMConfig)
+comment1.params=
+comment1.target=void\ close()
+comment2.params=
+comment2.target=boolean\ connect()
+comment3.params=
+comment3.target=boolean\ isEOF()
+comment4.params=
+comment4.target=void\ getPath()
+numComments=5
