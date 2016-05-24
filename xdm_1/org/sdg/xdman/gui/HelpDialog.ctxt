@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HelpDialog()
+comment1.params=
+comment1.target=javax.swing.JToolBar\ createToolBar()
+comment2.params=e
+comment2.target=void\ valueChanged(javax.swing.event.ListSelectionEvent)
+comment3.params=url
+comment3.target=void\ setDocument(java.net.URL)
+comment4.params=url
+comment4.target=void\ setPage(java.net.URL)
+comment5.params=map
+comment5.target=void\ addPages(java.util.HashMap)
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

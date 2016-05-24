@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=octect
+comment0.target=boolean\ isWhiteSpace(char)
+comment1.params=octect
+comment1.target=boolean\ isPad(char)
+comment2.params=octect
+comment2.target=boolean\ isData(char)
+comment3.params=octect
+comment3.target=boolean\ isBase64(char)
+comment4.params=binaryData
+comment4.target=java.lang.String\ encode(byte[])
+comment5.params=encoded
+comment5.target=byte[]\ decode(java.lang.String)
+comment6.params=data
+comment6.target=int\ removeWhiteSpace(char[])
+numComments=7

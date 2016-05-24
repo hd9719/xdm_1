@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=f
+comment0.target=PropDlg(javax.swing.JFrame)
+comment1.params=item
+comment1.target=void\ setDownloadProperty(DownloadListItem)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=3

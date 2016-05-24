@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=java -jar '/media/rt1y1rt/7C0A9FB36E613167/my_sys/prj/java_active/xdm_1/xdman.jar'
+Name=Xtreme Download Manager
+Icon=/media/rt1y1rt/7C0A9FB36E613167/my_sys/prj/java_active/xdm_1/icon.png

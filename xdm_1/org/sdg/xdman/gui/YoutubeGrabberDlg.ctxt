@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=l
+comment0.target=YoutubeGrabberDlg(YoutubeMediaListener)
+comment1.params=f\ config
+comment1.target=void\ showDialog(javax.swing.JFrame,\ org.sdg.xdman.core.common.XDMConfig)
+comment2.params=
+comment2.target=void\ createP1()
+comment3.params=
+comment3.target=void\ createP2()
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=list
+comment5.target=void\ parsingComplete(java.util.ArrayList)
+comment6.params=
+comment6.target=void\ parsingFailed()
+comment7.params=downloaded
+comment7.target=void\ update(long)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+comment8.text=\n\ @param\ args\n
+numComments=9
