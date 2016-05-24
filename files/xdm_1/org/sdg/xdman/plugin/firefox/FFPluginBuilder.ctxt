@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.params=out\ ext
-comment0.target=void\ buildXPI(java.io.OutputStream,\ java.lang.String[])
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2
